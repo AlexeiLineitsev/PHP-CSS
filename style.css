@@ -1,0 +1,62 @@
+body{
+    background-color: #f8f8f8;
+}
+
+a {
+    color: gray;
+    
+}
+
+li {
+    list-style-type: none
+}
+
+li > a {
+    color: gray;
+    font-size: 18px;
+    font-style: italic;
+    
+    }
+h2{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    
+}
+
+
+h4{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+p2{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+ol{
+    color: black;
+    background-color: lightgray;
+    list-style-type: disc; 
+    
+}
+
+img {
+    border: 1px solid black;
+}
+
+input {
+    color: black;
+    font-size: 12px;
+    height: auto;
+    width: auto;
+        
+    
+}
