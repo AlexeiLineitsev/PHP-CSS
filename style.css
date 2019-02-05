@@ -2,21 +2,40 @@ body{
     background-color: #f8f8f8;
 }
 
-a {
-    color: gray;
-    
-}
 
-li {
-    list-style-type: none
-}
-
-li > a {
+.menu-catalog {
+ 
     color: gray;
     font-size: 18px;
     font-style: italic;
     
     }
+
+.menu {
+    
+     list-style-type: none;
+     color: gray;
+     font-size: 18px;
+     font-style: italic;
+}
+
+.menu-cat {
+    
+     list-style-type: none;
+     color: gray;
+     font-size: 18px;
+     font-style: italic;
+}
+
+.menu-link {
+
+    color: gray;
+    font-size: 18px;
+    font-style: italic;    
+}
+
+
+
 h2{
     color: black;
     font-size: 18px;
@@ -33,7 +52,7 @@ h4{
     line-height: 16px;
 }
 
-p2{
+p{
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -41,7 +60,8 @@ p2{
     text-align: left;
 }
 
-ol{
+.list_tovar_katalog
+{
     color: black;
     background-color: lightgray;
     list-style-type: disc; 
@@ -49,7 +69,7 @@ ol{
 }
 
 img {
-    border: 1px solid black;
+    outline: 1px solid grey;
 }
 
 input {
