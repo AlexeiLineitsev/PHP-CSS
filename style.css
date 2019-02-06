@@ -1,25 +1,25 @@
+/*Тело*/
 body{
     background-color: #f8f8f8;
 }
-
-
-.menu-catalog {
- 
-    color: gray;
-    font-size: 18px;
-    font-style: italic;
+/*Текст приветствия на главной странице*/
+.text_greetin {
     
-    }
-
-.menu {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
     
-     list-style-type: none;
-     color: gray;
-     font-size: 18px;
-     font-style: italic;
 }
 
-.menu-cat {
+/*Логотип*/
+.logo_index{            
+    height: 100px;
+}
+
+/*Меню в шапке*/
+.menu {
     
      list-style-type: none;
      color: gray;
@@ -33,6 +33,31 @@ body{
     font-size: 18px;
     font-style: italic;    
 }
+
+/*Меню в шапке*/
+/*при наведении мыши*/
+.menu-link:hover {
+    color:skyblue;
+}
+
+
+
+/*Каталог товаров*/
+.menu-cat {
+    
+     list-style-type: none;
+     color: gray;
+     font-size: 18px;
+     font-style: italic;
+}
+
+.menu-catalog {
+ 
+    color: gray;
+    font-size: 18px;
+    font-style: italic;
+    
+    }
 
 
 
@@ -52,31 +77,25 @@ h4{
     line-height: 16px;
 }
 
-p{
-    color: #484343;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
 
-.list_tovar_katalog
+
+.list_product_catalog
 {
     color: black;
     background-color: lightgray;
     list-style-type: disc; 
-    
-}
+ }
 
+/*
 img {
     outline: 1px solid grey;
 }
+*/
 
-input {
+.form_write_to_us {
     color: black;
     font-size: 12px;
     height: auto;
     width: auto;
-        
-    
+           
 }
