@@ -78,24 +78,70 @@ h4{
 }
 
 
-
+ 
 .list_product_catalog
 {
     color: black;
     background-color: lightgray;
     list-style-type: disc; 
+     
  }
 
-/*
-img {
-    outline: 1px solid grey;
-}
-*/
-
-.form_write_to_us {
+input {
     color: black;
     font-size: 12px;
     height: auto;
     width: auto;
            
 }
+
+.form_write_to_us:focus {
+    color: mediumblue;
+    background-color: skyblue;
+          
+}
+
+.Table_product_1 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center
+     
+}
+
+.Table_product_2 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+td{
+    border: 1px solid black;
+    }
+
+
+.menu-catalog.img {
+    border: 1px solid black;
+}
+
+
+.img-product {
+    outline: 1px solid gray;
+}
+
+.img-product:hover {
+    outline: none;
+}
+
+.text:first-letter {
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
