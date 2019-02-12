@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+a{
+    text-decoration: none;    
+}
+
 .container {
     width: 1366px;
     margin: 0 auto;
@@ -10,5 +15,43 @@
 .slider {
     background-image: url(image/slider-img.jpg);
     height: 800px;
+}
+
+.menu {
+    margin-top: 67px;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
     
+}
+
+.header { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+        
+}
+
+.menu {
+    
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-top: 63px;
 }
