@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;    
 }
 
@@ -153,63 +153,45 @@ margin-bottom: 32px;
     background-color: #212121;
 }
 
-.white-block {
-    height: 609px;
-    margin: 0 auto;   
+
+.block-product {
+    height: 800px;
 }
 
 
 
-.Featured-active {
-    margin: 19px 15px 20px 9px;
-    color: #212121;
-    font-size: 36px;
-    font-weight: 700;
-    border-bottom: 3px solid #212121;
-}
-
-.explore-all {
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #212121;
-    letter-spacing: 3.6px;
-}
-
-.New {
-    border-bottom: 1px solid #6c6c6c;
-}
-
-.menu-2 {
-    margin-top: 122px;
+.block-menu {
     display: flex;
-    list-style: none;
-    border-bottom: 1px solid #6c6c6c;
-    
-}
-
-
-
-.conteiner-1 {
-    width: 1366px;
-    height: 609px;
-    margin: 0 auto;
-}
-
-.menu-2-1 {
-    display: flex;
-    align-items: baseline;
     justify-content: space-between;
 }
 
-
-
-.menu-link-1 {
-    
+.menu-product {
+    margin-top: 120px;
+    display: flex;
+    list-style: none;
 }
 
-.new {
-        color: #6c6c6c;
+.menu-product-link {
+    padding: 19px 22px 19px 9px;
+    color: #6c6c6c;
     font-size: 36px;
     font-weight: 700;
+}
+
+.feature-act {
+    padding: 19px 20px 19px 9px;
+    color: #212121;
+font-size: 36px;
+font-weight: 700;
+}
+
+.menu-product-exp-link {
+    padding: 13px 13px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+        margin-top: 122px;
 }
