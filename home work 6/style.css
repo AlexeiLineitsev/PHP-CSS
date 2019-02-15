@@ -366,9 +366,9 @@ margin-bottom: 32px;
 
 
 .block-product-2 {
-    height: 810px;
+    height: 570px;
     display: flex;  
-    align-items: center;
+
 }
 
 
@@ -421,6 +421,7 @@ margin-bottom: 32px;
     background-image: url(image/product-1-lg.jpg); 
     display: flex;
     flex-direction: column;
+    margin-right: 30px;
 }
 
 
@@ -460,4 +461,40 @@ margin-bottom: 32px;
       margin-bottom: 18px;
     
     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.padding-site-block6 {
+    padding: 120px 98px;
+}
+
+
+
+.img-product {
+    display: flex;
+    
+}
+
+.product-img-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.img-link-margin {
+    margin-left: 26.25px;
 }
