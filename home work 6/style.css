@@ -419,6 +419,8 @@ margin-bottom: 32px;
     width: 570px;
     height: 570px;
     background-image: url(image/product-1-lg.jpg); 
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -447,4 +449,15 @@ margin-bottom: 32px;
 
 .block2-img-link {
     display: flex;
+}
+
+.block6-text {
+    margin-left: 30px;
+    margin-top: 186px;
+}
+
+.block6-ex-header {
+      margin-bottom: 18px;
+    
+    
 }
