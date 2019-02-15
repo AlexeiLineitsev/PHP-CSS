@@ -195,9 +195,11 @@ margin-bottom: 32px;
 }
 
 .block-product {
+    height: 609px;
     padding-bottom: 120px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .product-img-link {
@@ -432,10 +434,17 @@ margin-bottom: 32px;
 }
 
 .ex-text-item {
-        margin-bottom: 19px;
+    margin-bottom: 19px;
+    width: 374px;
 }
 
 .exclusive-block {
+    height: 683px;
     background-image: url(image/2-layers.jpg);
     background-repeat: no-repeat;
+    display: flex;
+}
+
+.block2-img-link {
+    display: flex;
 }
