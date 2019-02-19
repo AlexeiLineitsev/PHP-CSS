@@ -47,6 +47,7 @@ a {
         
 }
 
+
 .menu-link {
     padding: 10px 13px;
     color: #8c8c8c;
@@ -56,7 +57,7 @@ a {
 }
 
 .menu-link:hover{
-    color: black;
+    color: #212121;
 }
 
 .logo {
@@ -99,6 +100,12 @@ margin-bottom: 32px;
     line-height: 24px;
 }
 
+.button:hover {
+    box-shadow: 0 0 5px 1px rgba(33, 33, 33, 0.35);
+    position: relative;
+    top:2px;
+}
+
 .button {
     width: 212px;
     height: 45px;
@@ -118,6 +125,10 @@ margin-bottom: 32px;
 .slider-tex {
     width: 458px;
     
+}
+
+.circle:hover {
+    background-color:  #212121;
 }
 
 .circle {
@@ -165,6 +176,10 @@ margin-bottom: 32px;
     list-style: none;
 }
 
+.menu-product-link:hover {
+    color: #212121;
+}
+
 .menu-product-link {
     color: #6c6c6c;
     font-size: 36px;
@@ -173,7 +188,7 @@ margin-bottom: 32px;
 }
 
 .link-active {
-        margin-bottom: 24px;
+       color: #212121;
    
 }
 
@@ -265,6 +280,11 @@ margin-bottom: 32px;
 
 
 
+.button-product-link:hover{
+    background-color: #8c8c8c;    
+}
+
+
 .button-product-link {
     width: 48px;
     height: 48px;
@@ -294,6 +314,11 @@ margin-bottom: 32px;
 .trending-link {
     display: flex;
     justify-content: space-between;
+}
+
+.exploreall:hover {
+    position: relative;
+    top:2px;
 }
 
 .exploreall {
@@ -450,6 +475,7 @@ margin-bottom: 32px;
 
 .block2-img-link {
     display: flex;
+
 }
 
 .block6-text {
