@@ -14,6 +14,7 @@ a {
 .container {
     width: 1366px;
     margin: 0 auto;
+    flex-grow: 1;
 }
 
 .slider {
@@ -85,18 +86,18 @@ letter-spacing: 1.8px;
 .slider-h2 {
     margin-top: 22px;
     color: #212121;
-font-size: 62px;
-font-weight: 100;
-text-transform: uppercase;
-    letter-spacing: -4px;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: -5px;
 }
 
 .slider-p {
-color: #6c6c6c;
-font-size: 14px;
-font-weight: 300;
-margin-top: 15px;
-margin-bottom: 32px;  
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 32px;  
     line-height: 24px;
 }
 
@@ -168,6 +169,7 @@ margin-bottom: 32px;
 .block-menu {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu-product {
@@ -217,7 +219,6 @@ margin-bottom: 32px;
     height: 609px;
     display: flex;
     flex-direction: column;
-
 }
 
 .product-img-link {
@@ -367,7 +368,6 @@ margin-bottom: 32px;
 
 
 .slider2 {
-    background-image: url(image/slider.jpg);
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -563,4 +563,56 @@ margin-bottom: 32px;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+}
+
+.trending-foto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.trending-box {
+    width: 370px;
+    height: 370px;
+    
+}
+
+
+
+.mobile {
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 120px;
+    box-sizing: border-box;
+    
+}
+
+.mobile-h4-color {
+    color: #6c6c6c;
+}
+
+.mobile-text {
+    width: 415px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.footer-contacts {
+    width: 221px;
 }
